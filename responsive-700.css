@@ -1,0 +1,272 @@
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .navbar-nav {
+        position:relative;
+        box-sizing:border-box;
+        height:390px;
+    }
+    nav.navbar-w {
+        width:800px;
+    }
+    .navbar-nav .round {
+        position:absolute;
+        bottom:7px;
+        right:7px;
+    }
+
+    
+    /* Main */
+    main {
+        width:800px;
+    }
+    main .buttons {
+        display:block;
+        margin:auto;
+    }
+    .buttons .appointment {
+        margin-top:17px;
+        width:300px;
+        height:50px;
+        font-size:22px;
+        text-align:center;
+        letter-spacing: 2px;
+    }
+
+    /* Main 2 */
+    .main-2 {
+        display:block;
+        height:1300px;
+    }
+
+    .introducing {
+       width:800px;
+       height:700px;
+    }
+
+    /* Services "What We Do" */
+
+    .services {
+        width:800px;
+        height:1300px;
+    }
+
+    .services-logos {
+        height:1100px;
+        display:block;
+        margin:auto auto;
+    }
+
+    .services-logos .logo1 p {
+        width:auto;
+    }
+
+
+    /* Booking Form */
+
+    .booking {
+        width:800px;
+        height:1500px;
+        display:block;
+        background-size:100% 1390px;
+    }
+    .booking .booking-text {
+        margin:auto;
+        height:300px;
+        padding-top:33px;
+    }
+    .booking .booking-text p {
+        font-size:22px;
+        width:400px;
+        margin:auto;
+    }
+
+    .booking .booking-form {
+        width:100%;
+        height:1100px;
+        margin-top:100px;
+        text-align:center;
+    }
+
+    .booking-form p {
+        font-size:22px;
+    }
+
+    form {
+        display:block;
+    }
+
+    form .right-part {
+        margin-top:-27px;
+    }
+    form .inp {
+        width:650px;
+        height:70px;
+        
+    }
+    form input {
+        font-size:27px;
+        color:rgb(48, 47, 47);
+    }
+    form input::placeholder{
+        font-size:24px;
+        padding-left:10px;
+    }
+
+    .booking-form .btn {
+        width:650px;
+        height:70px;
+        text-align:center;
+        margin-top:10px;
+        font-size:27px;
+        letter-spacing:10px;
+    }
+
+    /* Team */
+
+    .team {
+        height:2000px;
+    }
+    .team .team-header {
+        height:400px;
+        font-size:20px;
+    }
+
+    .cards {
+        height:1800px;
+        display:block;
+    }
+    .cards .card {
+        width:70%;
+        height:400px;
+        margin-top:20px;
+    }
+    .cards .card img {
+        width:100%;
+        height:400px;
+    }
+
+
+    /* Body Header */
+
+    .body-header {
+        width:800px;
+    }
+    .body-header p {
+      font-size:31px;  
+    }
+     
+    /* Plans & Pricing */
+    .pricing {
+        height:500px;
+    }
+    .pricing p {
+        font-size:28px;
+    }
+
+    /* Hair Cards */
+    .hair-cards {
+        width:800px;
+        height:1500px;
+        display:block;
+
+    }
+
+    .hair-cards .hair-card {
+        width:700px;
+        margin-left:-250px;
+        margin-top:50px;
+    }
+    .hair-card p {
+        font-size:28px;
+    }
+    .hair-card h5 {
+        font-size:30px;
+    }
+
+    .hair-card .for-booking {
+        width:300px;
+        height:70px;
+        font-size:27px;
+    }
+
+    /* Image Cards */
+    .image-cards {
+        height:1700px;
+        display:block;
+        
+    }
+
+    .image-cards .image-card {
+        height:500px;
+        width:500px;
+        margin-left:-170px;
+    }
+
+    /* Footer */
+
+    footer {
+        width:800px;
+        display:block;
+        height:1500px;
+    }
+
+    footer .block {
+         
+         width:500px;
+    }
+    
+    /* footer .block a, h5, p, .iconss {
+         margin-left:200px;
+         width:500px;
+    } */
+    
+    .block p {
+        margin-left:180px;
+    }
+    .block ul li {
+        margin-left:170px;
+    }
+    .block h5 {
+        font-size:30px;
+        margin-left:200px;
+    }
+    .block a {
+        font-size:30px;
+        margin-left:200px;
+    }
+    .block input {
+        margin-left:200px;
+        
+    }
+    .block .mm-top {
+        margin-top:-200px;
+      
+    }
+    .block .iconss {
+        margin-left:200px;
+        margin-top:-20px;
+    }
+    .block .iconss img {
+        width:40px;
+        height:40px;
+        
+    }
+    .mm-top h5 {
+        font-size:30px;
+    }
+    
+
+    .mini-footer {
+        width:800px;
+    }
+
+    footer .subs {
+        top:57%;
+        right:33%;
+        width:220px;
+    }
+} /* Media Query */

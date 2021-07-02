@@ -1,0 +1,458 @@
+body {
+   
+}
+
+.navbar-nav {
+    margin-left:auto;
+    width:auto;
+    
+}
+
+.round {
+    width:150px;
+    height:50px;
+    background-color:#857568;
+    padding:5px;
+    text-align:center;
+    border-radius:50px 50px 50px 50px;
+    margin-top:-5px;
+}
+
+.round:hover {
+    background-color:#c0a995;
+}
+
+/* MAIN Content*/
+
+main {
+    width:100%;
+    height:700px;
+    background-image:url("https://i1.wp.com/karameeshsalon.com/wp-content/uploads/2018/09/blog-img-4-scaled.jpg?fit=2560%2C1707&ssl=1");
+    background-repeat:no-repeat;
+    background-size:100% 500px;
+    color:white;
+}
+
+.main-text {
+    width:auto;
+    height:auto;
+    padding:110px;
+}
+
+.buttons {
+    width:300px;
+    height:70px;
+    display:flex;
+    margin-left:-20px;
+    padding:10px;
+    
+}
+
+.buttons .appointment {
+    width:130px;
+    height:40px;
+    background-color:#857567;
+    margin-left:4px;
+    padding:7px;
+    
+}
+
+.appointment a {
+    text-decoration:none;
+    color:white;
+    padding-left:3px;
+}
+
+/* Main 2 */
+
+.main-2 {
+    width:100%;
+    height:700px;
+    display:flex;
+}
+
+.introducing {
+    width:50%;
+    height:500px;
+    text-align: center;
+    padding:100px;
+}
+
+.z-images img {
+    width:100%;
+    height:400px;
+    margin-top:100px;
+}
+
+/* Services "What We Do */
+.services {
+    width:100%;
+    height:700px;
+    margin-top:50px;
+    background-color:#FCF9F7;
+    padding:20px;
+}
+
+.services-text {
+    width:100%;
+    height:250px;
+    text-align:center;
+}
+
+.services-logos {
+    width:100%;
+    height:250px;
+    display:flex;
+    text-align:center;
+    justify-content:space-around;
+}
+
+
+.logo1 p {
+    width:210px;
+}
+
+
+/* BOOKING FORM */
+
+.booking {
+    width:100%;
+    height:610px;
+    display:flex;
+    background-image: url("http://wp.dynamiclayers.net/sentobar/wp-content/uploads/sites/6/2018/09/slide-1-1600x680.jpg");
+    background-size:100% 700px;
+    background-repeat:no-repeat;
+}
+
+.booking-text {
+    width:50%;
+    height:500px;
+    text-align:center;
+    margin-top:100px;
+    color:gray;
+}
+
+.booking-form {
+    width:50%;
+    height:610px;
+    background-color:rgba(255, 255, 255, 0.432);
+    padding:50px;
+}
+
+.left-part {
+    width:50%;
+    height:300px;
+    display:block;
+    
+}
+.right-part {
+    width:50%;
+    height:300px;
+    display:block;
+
+}
+
+form {
+    display:flex;
+}
+
+.inp {
+    width:300px;
+    height:50px;
+    margin-top:20px;
+}
+
+.btn {
+    width:150px;
+    height:50px;
+    background-color:#A09184;
+    margin-top:-50px;
+    text-align:center;
+    padding-top:11px;
+    color:white;
+}
+.btn:hover{
+    color:white;
+    background-color:#b8aa9e;
+}
+
+/* TEAM */
+
+.team {
+    width:100%;
+    height:700px;
+    display:block;
+    margin-top:50px;
+}
+.team p {
+    color:gray;
+}
+.team-header {
+    width:100%;
+    height:310px;
+    text-align:center;
+}
+
+.cards {
+    width:100%;
+    height:500px;
+    display:flex;
+    margin-top:-130px;
+}
+/* Card hover animation */
+.card {
+    width:15%;
+    height:270px;
+    margin:auto;
+    position:relative;
+    overflow: hidden;
+    background-color:rgba(128, 128, 128, 0);
+}
+
+.card img{
+    z-index:-1;
+}
+
+.card::after {
+    content:"NAME SURNAME";
+    width:100%;
+    height:50px;
+    background-color:gray;
+    position:absolute;
+    bottom:-23%;
+    text-align:center;
+    padding:10px;
+    color:white;
+}
+
+
+.card:hover::after {
+    position:absolute;
+    bottom:0;
+    transition-duration:.7s;
+}
+
+.card:hover {
+    background-color:rgba(0, 0, 0, 0.377);
+}
+
+
+
+
+/* Body header */
+.body-header {
+    width:100%;
+    height:500px;
+}
+ .body-header .vato-auto {
+     width:auto;
+     height:500px;
+     background-image: url("https://img.themanual.com/image/themanual/best-hair-gel-2020.jpg");
+     background-repeat:no-repeat;
+     background-size:110% 500px;
+     text-align:center;
+     box-sizing:border-box;
+     padding-top:200px;
+ }
+
+
+
+.body-header h4, p {
+    text-transform:uppercase;
+    color:white;
+}
+
+/* PRICING */
+.pricing {
+    width:100%;
+    height:400px;
+    text-align:center;
+    padding-top:70px;
+}
+
+.pricing p {
+    color:gray;
+    text-transform: lowercase;
+}
+
+
+/* HAIR Cards */
+
+.hair-cards {
+    width:100%;
+    height:500px;
+    display:flex;
+    padding-left:300px;
+}
+
+.hair-card {
+    width:23%;
+    height:430px;
+    background-color:#FCF9F7;
+    text-align:center;
+    margin-left:20px;
+    padding:10px;
+    padding-top:20px;
+    
+    
+}
+.hair-card h5 {
+    font-size:27px;
+    
+}
+
+.hair-card h5,p {
+    margin-top:30px;
+    
+}
+.hair-card p {
+    color:gray;
+}
+.hair-card .for-booking {
+    margin-top:41px;
+}
+.hair-card .m-top {
+    margin-top:43px;
+}
+
+.for-booking {
+    width:150px;
+    height:50px;
+    background-color:#57534b;
+    margin:auto;
+    text-align:center;
+    padding-top:11px;
+}
+.for-booking:hover {
+    background-color:#574c38;
+    cursor: pointer;
+}
+
+.for-booking a {
+    text-decoration: none;
+    color:white;
+}
+
+
+/* Latest Stories */
+.p-m-top {
+    padding-top:20px;
+}
+
+/* Image Cards */
+.image-cards {
+    width:100%;
+    height:500px;
+    display:flex;
+    padding-left:300px;
+}
+.image-card {
+    width:23%;
+    height:480px;
+    margin-left:50px;
+    background-color:#FCF9F7;
+}
+
+.image-card img {
+    width:100%;
+    height:200px;
+}
+ 
+.image-card h5,p {
+    padding:20px;
+}
+
+.image-card p {
+    color:gray;
+}
+
+/* Footer */
+
+footer {
+    width:100%;
+    height:400px;
+    background-color:#222227;
+    display:flex;
+    position:relative;
+}
+
+.block {
+    width:30%;
+    height:400px;
+    margin-left:100px;
+    padding-top:70px;
+}
+.block .lg {
+    color:white;
+}
+.block h5 {
+    color:white;
+    font-size:17px;
+}
+.block p {
+    color:gray;
+}
+
+.block .iconss {
+    width:100px;
+    height:100px;
+    display:flex;
+}
+.block .mm-top {
+    width:auto;
+    height:auto;
+}
+.iconss img {
+    width:25px;
+    height:25px;
+}
+
+.iconss img:hover {
+    cursor: pointer;
+}
+
+.block ul{
+    color:rgb(80, 78, 78);
+}
+
+.block input {
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    background-color:#333333;
+}
+
+footer .subs {
+    width:130px;
+    height:42px;
+    background-color:#746559;
+    padding:10px;
+    text-align:center;
+    position:absolute;
+    right:10px;
+    top:121px;
+}
+.subs:hover {
+    background-color:#816549;
+    cursor: pointer;
+}
+.subs a{
+    text-decoration: none;
+    color:white;
+}
+
+/* Mini Footer */
+.mini-footer {
+    width:100%;
+    height:100px;
+    border-top:1px solid rgb(190, 185, 185);
+    background-color:#222227;
+    text-align:center;
+}
+
+
+.mini-footer p {
+    color:gray;
+    padding-top:17px;
+}
+
